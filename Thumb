@@ -1,0 +1,18 @@
+# Contribution Guide 🚦✨
+
+## 📌 Rule of Thumb
+If you discover or build **any other model** → **DO NOT** push it to `main`.  
+Instead, create or switch to the **`ideas` branch** and push there. 🚀  
+
+---
+
+## 🔀 Branch Workflow
+
+1. **Stay Safe in Main**  
+   - `main` branch = stable, working code only.  
+   - Nothing experimental goes here. ❌
+
+2. **Use Ideas Branch for New Models**  
+   ```bash
+   git checkout -b ideas     # create ideas branch (first time)
+   git checkout ideas        # switch if it already exists
